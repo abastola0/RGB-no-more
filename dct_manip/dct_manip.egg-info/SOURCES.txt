@@ -1,0 +1,6 @@
+dct_manip.cpp
+setup.py
+dct_manip.egg-info/PKG-INFO
+dct_manip.egg-info/SOURCES.txt
+dct_manip.egg-info/dependency_links.txt
+dct_manip.egg-info/top_level.txt

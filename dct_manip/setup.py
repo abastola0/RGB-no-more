@@ -7,13 +7,14 @@ setup(name='dct_manip',
       ext_modules=[cpp_extension.CppExtension(
 	      'dct_manip', 
 	      ['dct_manip.cpp'],
-		  include_dirs=['/home/jespark/mambaforge/envs/rgbnomore/include'],
-		  library_dirs=['/home/jespark/mambaforge/envs/rgbnomore/lib'],
+
+		  include_dirs=['/home/abastol/.conda/envs/rgbnomore/include'],
+		  library_dirs=['/home/abastol/.conda/envs/rgbnomore/lib'],
 	      extra_objects=[
-			'/home/jespark/mambaforge/envs/rgbnomore/lib/libjpeg.so',
+			'/home/abastol/.conda/envs/rgbnomore/lib/libjpeg.so',
 			],
 		  headers=[
-			'/home/jespark/mambaforge/envs/rgbnomore/include/jpeglib.h',],
+			'/home/abastol/.conda/envs/rgbnomore/include/jpeglib.h',],
 	      extra_compile_args=['-std=c++17']
 	      ),
       ],
